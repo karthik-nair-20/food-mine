@@ -1,0 +1,28 @@
+/* Style for the parent <div> */
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Style for the individual <a> tags */
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  background: linear-gradient(45deg, #ff5252, #e53935); /* Gradient background with red-like colors */
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(255, 82, 82, 0.2);
+  transition: background 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+  text-transform: uppercase;
+}
+
+a:hover {
+  background: linear-gradient(45deg, #e53935, #c62828); /* Darker gradient for the hover effect */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 82, 82, 0.4); /* Enhanced box-shadow on hover */
+}
