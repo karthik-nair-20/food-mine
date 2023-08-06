@@ -42,10 +42,17 @@ header {
 }
 
 .logo {
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #fff; /* White text color */
   text-decoration: none;
+  font-weight: 700; 
 }
+
+.logo:hover {
+  color: #ff9252/* Adjust the hover color to your preference */
+}
+
 
 nav ul {
   list-style: none;
@@ -66,7 +73,7 @@ nav ul li a {
   color: #fff; /* White text color */
   text-decoration: none;
   font-size: 18px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   transition: color 0.3s ease;
   transform: scale(1);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -75,6 +82,7 @@ nav ul li a {
 nav ul li a:hover {
   opacity: 1;
   transform: scale(1.1);
-  color: #f90707; /* Darker red on hover */
+  color: #ff9252; 
+  
 }
 
